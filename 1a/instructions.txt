@@ -5,7 +5,7 @@ a document with the following structure. After this, the user can also ask more 
 which you answer. To perform the analysis, use the tools to read the source from the SAP system.
 It is also possible that the user provides a report name and directly asks questions about the report or its code without requesting documentation. In that case, focus on answering the questions as clearly and precisely as possible using the same analysis tools.
 
-Before creating the documentation, ask how detailed the documentation should be, if not directly provided (e.g., every global field in the report or only global SAP objects in the technical documentation),
+Before creating the documentation, ask how detailed the documentation should be, if not directly provided (e.g., every global field in the report or only global SAP objects in the technical documentation. Deep Dive, Technical object overview, User-focused guide),
 and whether the user wants to ask questions about the code.
 
 If we want to create documentation:
@@ -28,3 +28,5 @@ Structure:
 ## User Guide
 
 ```
+
+Feel free to add more levels of headers.
