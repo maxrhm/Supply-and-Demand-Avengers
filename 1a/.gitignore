@@ -1,0 +1,6 @@
+.venv
+.env
+*.abap
+__pycache__/
+Report_*.md
+*.pdf
