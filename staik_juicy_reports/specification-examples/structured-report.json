@@ -1,0 +1,37 @@
+{
+  "report": [
+    {
+      "sectionName": "Introduction",
+      "content": [
+        {
+          "type": "text",
+          "description": "Slide title",
+          "value": "This report provides an overview of the project's objectives and scope."
+        },
+        {
+          "type": "image",
+          "description": "Introduction diagram",
+          "value": "images/intro_diagram.png"
+        }
+      ]
+    },
+    {
+      "sectionName": "Methodology",
+      "content": [
+        {
+          "type": "text",
+          "description": "Methodology overview",
+          "value": "The methodology section outlines the research methods and approaches used in the project."
+        },
+        {
+          "type": "image",
+          "description": "Methodology flowchart",
+          "value": {
+            "link": "images/methodology_flowchart.png",
+            "description": "A flowchart illustrating the research methodology."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+    xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+    xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+    <p:cSld name="Slide1">
+        <p:spTree>
+            <p:nvGrpSpPr>
+                <p:cNvPr id="1" name="" />
+                <p:cNvGrpSpPr />
+                <p:nvPr />
+            </p:nvGrpSpPr>
+            <p:grpSpPr>
+                <a:xfrm>
+                    <a:off x="0" y="0" />
+                    <a:ext cx="0" cy="0" />
+                    <a:chOff x="0" y="0" />
+                    <a:chExt cx="0" cy="0" />
+                </a:xfrm>
+            </p:grpSpPr>
+            <p:sp>
+                <p:nvSpPr>
+                    <p:cNvPr id="2" name="Title 1">
+                        <a:extLst>
+                            <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                                <a16:creationId
+                                    xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main"
+                                    id="{FF1F653D-B710-E017-B32C-5F86517978A4}" />
+                            </a:ext>
+                        </a:extLst>
+                    </p:cNvPr>
+                    <p:cNvSpPr txBox="1">
+                        <a:spLocks noGrp="1" />
+                    </p:cNvSpPr>
+                    <p:nvPr>
+                        <p:ph type="ctrTitle" />
+                    </p:nvPr>
+                </p:nvSpPr>
+                <p:spPr />
+                <p:txBody>
+                    <a:bodyPr />
+                    <a:lstStyle />
+                    <a:p>
+                        <a:r>
+                            <a:rPr lang="en-US" />
+                            <a:t>Quarterly Business Review</a:t>
+                        </a:r>
+                        <a:endParaRPr lang="en-US" />
+                    </a:p>
+                </p:txBody>
+            </p:sp>
+            <p:sp>
+                <p:nvSpPr>
+                    <p:cNvPr id="3" name="Subtitle 2" />
+                    <p:cNvSpPr txBox="1">
+                        <a:spLocks noGrp="1" />
+                    </p:cNvSpPr>
+                    <p:nvPr>
+                        <p:ph type="subTitle" idx="1" />
+                    </p:nvPr>
+                </p:nvSpPr>
+                <p:spPr />
+                <p:txBody>
+                    <a:bodyPr />
+                    <a:lstStyle />
+                    <a:p>
+                        <a:r>
+                            <a:rPr lang="en-US" />
+                            <a:t>Executive Leadership</a:t>
+                        </a:r>
+                    </a:p>
+                    <a:p>
+                        <a:r>
+                            <a:rPr lang="en-US" />
+                            <a:t>Q4 2024</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:sp>
+            <p:sp>
+                <p:nvSpPr>
+                    <p:cNvPr id="3" name="Subtitle 2">
+                        <a:extLst>
+                            <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                                <a16:creationId
+                                    xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main"
+                                    id="{83C8959F-16A5-1426-5ECB-DAC50464BD3D}" />
+                            </a:ext>
+                        </a:extLst>
+                    </p:cNvPr>
+                    <p:cNvSpPr txBox="1">
+                        <a:spLocks noGrp="1" />
+                    </p:cNvSpPr>
+                    <p:nvPr>
+                        <p:ph type="subTitle" idx="1" />
+                    </p:nvPr>
+                </p:nvSpPr>
+                <p:spPr />
+                <p:txBody>
+                    <a:bodyPr />
+                    <a:lstStyle />
+                    <a:p>
+                        <a:endParaRPr lang="en-US" />
+                    </a:p>
+                </p:txBody>
+            </p:sp>
+        </p:spTree>
+    </p:cSld>
+    <p:clrMapOvr>
+        <a:masterClrMapping />
+    </p:clrMapOvr>
+</p:sld>

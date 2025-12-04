@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/report-specification.schema.json",
+  "title": "Report Specification",
+  "description": "Schema describing the minimal structure for a report specification document.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["reportName", "targetAudience", "observationPeriod", "summary"],
+  "properties": {
+    "reportName": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable name for the report.",
+      "examples": ["Monthly Sales Report"]
+    },
+    "targetAudience": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Primary audience or stakeholder group that will consume the report.",
+      "examples": ["Sales Managers", "Executive Leadership"]
+    },
+    "observationPeriod": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Cadence covered by each report instance (e.g., Daily, Weekly, Monthly).",
+      "examples": ["Monthly", "Quarterly", "10-Day", "01.12.2024 - 31.12.2024"]
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Short narrative describing the report's purpose and contents.",
+      "examples": [
+        "A comprehensive report detailing monthly sales performance, trends, and forecasts."
+      ]
+    }
+  }
+}

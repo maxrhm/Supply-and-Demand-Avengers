@@ -1,0 +1,32 @@
+[
+  {
+    "file": "sample-data/calendar.csv",
+    "shortDescription": "Calendar table with one row per day linking an ISO-like date to week/month/year info, a sequential day code, optional event labels, and region-specific 0/1 indicators.",
+    "patternNotes": "Early fields look like date and numeric week/month/year codes; middle fields are often empty (events); last fields are binary flags per region.",
+    "exampleValues": ["2011-01-29", "11101", "Saturday", "1", "1", "2011", "d_1", "", "", "", "", "0", "0", "0"]
+  },
+  {
+    "file": "sample-data/sell_prices.csv",
+    "shortDescription": "Price history where each row ties a store-item pair to a retail price for a specific retail week number.",
+    "patternNotes": "Fields start with store and item identifiers, followed by a numeric week code and a decimal price.",
+    "exampleValues": ["CA_1", "HOBBIES_1_001", "11325", "9.58"]
+  },
+  {
+    "file": "sample-data/sales_train_validation.csv",
+    "shortDescription": "Wide-format daily unit sales history per product/location for the validation horizon: identifier fields first, then a long run of small integers for consecutive days.",
+    "patternNotes": "Initial fields are item/category/store/state-like identifiers; remaining ~1900 fields are day-level counts (mostly 0–5).",
+    "exampleRowStart": ["HOBBIES_1_001_CA_1_validation", "HOBBIES_1_001", "HOBBIES_1", "HOBBIES", "CA_1", "CA", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"]
+  },
+  {
+    "file": "sample-data/sales_train_evaluation.csv",
+    "shortDescription": "Same layout as the validation set but covering the full training span used for evaluation submissions; one row per product/location with long daily sales vectors.",
+    "patternNotes": "Identifier fields mirror the validation set; tail contains a long sequence of integer demand counts across more days.",
+    "exampleRowStart": ["HOBBIES_1_001_CA_1_evaluation", "HOBBIES_1_001", "HOBBIES_1", "HOBBIES", "CA_1", "CA", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"]
+  },
+  {
+    "file": "sample-data/sample_submission.csv",
+    "shortDescription": "Submission template listing forecast ids with placeholder zeros for a 28-day forecast window.",
+    "patternNotes": "Each row starts with a forecast id followed by 28 numeric slots currently set to 0.",
+    "exampleRow": ["HOBBIES_1_001_CA_1_validation", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"]
+  }
+]
