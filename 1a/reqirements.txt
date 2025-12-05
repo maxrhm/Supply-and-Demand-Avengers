@@ -1,7 +1,0 @@
-fastmcp
-openai-agents
-mcp
-streamlit
-openai
-python-dotenv
-requests
